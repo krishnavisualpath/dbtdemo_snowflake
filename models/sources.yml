@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: demo_dbt
+    database: dbt_demo
+    schema: dbtdemo_schema
+    tables:
+      - name: bike
+      - name: weather
